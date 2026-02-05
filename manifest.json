@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LockIn",
+  "version": "1.0",
+  "description": "Lock in boy!",
+  "permissions": ["tabs", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "64": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  }
+}
